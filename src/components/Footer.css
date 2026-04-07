@@ -1,0 +1,42 @@
+.footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+/* LOGO */
+.footer-logo {
+    color: #e50914;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* DESCRIPTION */
+.footer-desc {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* LINKS */
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #aaa;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* COPYRIGHT */
+.footer-copy {
+    font-size: 12px;
+    color: #666;
+}

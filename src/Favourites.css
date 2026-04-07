@@ -1,0 +1,44 @@
+.page {
+    padding: 90px 30px 30px;
+    color: white;
+}
+
+.page-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.movie-card {
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.movie-card p {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.empty {
+    color: gray;
+}

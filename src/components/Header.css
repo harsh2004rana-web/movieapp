@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+}
+
+.nav-links button {
+    margin-left: 15px;
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-links button:hover {
+    background-color: red;
+    border: none;
+}
